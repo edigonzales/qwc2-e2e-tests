@@ -1,0 +1,21 @@
+{
+  "name": "qwc2-e2e-tests",
+  "version": "1.0.0",
+  "description": "Playwright-based smoke, system, and end-to-end tests for the Kanton Solothurn QWC2 deployment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "PWDEBUG=1 playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "mcp": "playwright mcp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/mcp": "^0.0.39",
+    "@playwright/test": "^1.55.1"
+  }
+}
